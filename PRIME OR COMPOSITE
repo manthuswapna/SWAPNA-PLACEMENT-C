@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+   int count=0;
+   printf("enter any number:");
+   scanf("%d",&a);
+   for(int i=2;i<a;i++");
+  {
+     if(a%i==0)
+       count=count+1;
+  }
+  if(count==0)
+    printf("PRIME");
+  else
+    pritf("COMPOSITE");
+  }
